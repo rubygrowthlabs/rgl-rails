@@ -25,23 +25,73 @@ Each skill contains two complementary knowledge layers:
 
 The `references/` layer tells you the right pattern. The `handbook/` layer gives you the exact API details to implement it correctly.
 
+## Requirements
+
+- **Claude Code** (CLI) — [install instructions](https://code.claude.com/docs/en/quickstart)
+- Not compatible with Claude Desktop (which uses MCP servers, not skills)
+
 ## Installation
 
-```bash
-claude plugin install rgl-rails@rubygrowthlabs
+### From Marketplace (Recommended)
+
+Add the rgl-rails marketplace, then install the plugins you want:
+
+```
+/plugin marketplace add rubygrowthlabs/rgl-rails
 ```
 
-Or clone directly:
+Then install all 7 plugins:
 
-```bash
-git clone https://github.com/rubygrowthlabs/rgl-rails.git ~/.claude/skills/rgl-rails
+```
+/plugin install rails-architecture@rgl-rails
+/plugin install turbo-navigation@rgl-rails
+/plugin install turbo-streams@rgl-rails
+/plugin install stimulus-controllers@rgl-rails
+/plugin install forms-validation@rgl-rails
+/plugin install hotwire-native@rgl-rails
+/plugin install frontend-craft@rgl-rails
 ```
 
-## Commands
+Or browse and install interactively — run `/plugin` and go to the **Discover** tab.
 
-- `/rails:review` - Review code against DHH/Rails conventions
-- `/rails:analyze` - Scan codebase for simplification opportunities
-- `/rails:simplify [goal]` - Plan incremental refactoring toward vanilla Rails
+### Team/Project Setup
+
+Add this to your project's `.claude/settings.json` so teammates get the marketplace automatically:
+
+```json
+{
+  "extraKnownMarketplaces": {
+    "rgl-rails": {
+      "source": {
+        "source": "github",
+        "repo": "rubygrowthlabs/rgl-rails"
+      }
+    }
+  }
+}
+```
+
+### Local Development / Testing
+
+```bash
+claude --plugin-dir ./path/to/rgl-rails
+```
+
+Load a local copy for development or testing changes before publishing.
+
+## Usage
+
+Skills auto-activate when your conversation mentions relevant keywords — no manual setup needed.
+
+### Slash Commands
+
+- `/rails-architecture:review` — Review code against DHH/Rails conventions
+- `/rails-architecture:analyze` — Scan codebase for simplification opportunities
+- `/rails-architecture:simplify [goal]` — Plan incremental refactoring toward vanilla Rails
+
+### Verify Installation
+
+Run `/plugin` in Claude Code and go to the **Installed** tab to confirm the plugins are loaded.
 
 ## Trigger Phrases
 
