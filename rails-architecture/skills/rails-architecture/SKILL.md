@@ -219,6 +219,10 @@ Read only the references relevant to the current task. Each is self-contained.
 
 See also: [examples/before-after.md](./examples/before-after.md) for concrete refactoring walkthroughs.
 
+### Official Documentation
+
+- **Rails 8 CLAUDE.md project template** -- Read `handbook/rails-8-claude-md-template.md`
+
 ## Escalate to Neighbor Skills
 
 This skill focuses on server-side Rails architecture. For specialized concerns, hand off to:

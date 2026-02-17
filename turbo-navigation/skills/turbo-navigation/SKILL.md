@@ -113,6 +113,21 @@ Read the reference that matches the pattern you are implementing. Do not load al
 - **Turbo 8 morph page refresh** -- Read `references/turbo-8-page-refresh.md`
 - **Combined patterns and practical examples** -- Read `examples/navigation-patterns.md`
 
+### Official Documentation
+
+When you need precise attribute names, event names, or API details, read from the `handbook/` directory. Use `handbook/INDEX.md` for the full catalog.
+
+- **Turbo overview and philosophy** -- Read `handbook/turbo-introduction.md`
+- **Turbo Drive: page navigation without reloads** -- Read `handbook/turbo-drive.md`
+- **Page refreshes with morphing** -- Read `handbook/turbo-page-refreshes.md`
+- **Turbo Frames: scoped page sections** -- Read `handbook/turbo-frames.md`
+- **Building applications with Turbo** -- Read `handbook/turbo-building.md`
+- **Installing Turbo** -- Read `handbook/turbo-installing.md`
+- **Drive API reference** -- Read `handbook/turbo-drive-api.md`
+- **Frames API reference** -- Read `handbook/turbo-frames-api.md`
+- **Attributes reference (all data attributes and meta tags)** -- Read `handbook/turbo-attributes.md`
+- **Events reference (all Turbo events)** -- Read `handbook/turbo-events.md`
+
 ## Escalate to Neighbor Skills
 
 - **turbo-streams**: When the navigation pattern requires real-time server-pushed updates (live notifications, collaborative editing, broadcasts).

@@ -165,6 +165,30 @@ Read the reference that matches the pattern you are implementing. Do not load al
 - **Core Web Vitals and performance** -- Read `references/core-web-vitals.md`
 - **Common anti-patterns and fixes** -- Read `examples/anti-patterns.md`
 
+### Official Documentation
+
+When you need precise action descriptor syntax, lifecycle callback signatures, or API details, read from the `handbook/` directory. Use `handbook/INDEX.md` for the full catalog.
+
+**Handbook (concepts and tutorials):**
+- **Origin and philosophy of Stimulus** -- Read `handbook/stimulus-origin.md`
+- **Introduction to Stimulus** -- Read `handbook/stimulus-introduction.md`
+- **Hello, Stimulus tutorial** -- Read `handbook/stimulus-hello.md`
+- **Building something real** -- Read `handbook/stimulus-building-real.md`
+- **Designing for resilience** -- Read `handbook/stimulus-resilience.md`
+- **Managing state with Values** -- Read `handbook/stimulus-managing-state.md`
+- **Working with external resources** -- Read `handbook/stimulus-external-resources.md`
+- **Installing Stimulus** -- Read `handbook/stimulus-installing.md`
+
+**API references:**
+- **Controllers API** -- Read `handbook/stimulus-controllers-api.md`
+- **Actions API (descriptors, parameters, filters)** -- Read `handbook/stimulus-actions-api.md`
+- **Values API (types, defaults, callbacks)** -- Read `handbook/stimulus-values-api.md`
+- **Targets API (registration, callbacks)** -- Read `handbook/stimulus-targets-api.md`
+- **Outlets API (cross-controller references)** -- Read `handbook/stimulus-outlets-api.md`
+- **Lifecycle callbacks API** -- Read `handbook/stimulus-lifecycle-api.md`
+- **CSS Classes API** -- Read `handbook/stimulus-css-classes-api.md`
+- **Using TypeScript with Stimulus** -- Read `handbook/stimulus-typescript.md`
+
 ## Escalate to Neighbor Skills
 
 - **forms-validation**: When the controller is specifically for form handling (validation, submission, dependent fields, multi-step forms).

@@ -12,16 +12,25 @@ Each skill follows a three-tier structure:
 2. **commands/*.md** - Slash commands (only in rails-architecture)
 3. **agents/*.md** - Task agent definitions using `model: inherit`
 
+Skills also have two knowledge layers:
+- **references/** - Synthesized, opinionated guidance (pattern cards, guardrails)
+- **handbook/** - Official documentation (Turbo/Stimulus/Hotwire Native API specs, handbook chapters)
+
 ## Directory Layout
 
 ```
 rgl-rails/
 ├── rails-architecture/   # Hub skill with commands and agent
+│   └── handbook/          # Rails 8 CLAUDE.md template
 ├── turbo-navigation/     # Turbo Drive + Frames navigation patterns
+│   └── handbook/          # Official Turbo handbook + API refs (10 files)
 ├── turbo-streams/        # Real-time streaming and broadcasting
+│   └── handbook/          # Official Turbo Streams handbook + API ref (2 files)
 ├── stimulus-controllers/ # Stimulus controller fundamentals
+│   └── handbook/          # Official Stimulus handbook + API refs (16 files)
 ├── forms-validation/     # Form handling with Hotwire
 ├── hotwire-native/       # iOS + Android + Strada (unique differentiator)
+│   └── handbook/          # Turbo Native overview + TurboFailureApp auth (2 files)
 └── frontend-craft/       # CSS architecture and UX feedback
 ```
 

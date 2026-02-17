@@ -1,6 +1,6 @@
 {
   "name": "rails-architecture",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "DHH-style Rails architecture: fat models, thin controllers, concerns, REST resource mapping, Minitest, and Rails 8 defaults.",
   "author": {
     "name": "Ruby Growth Labs",

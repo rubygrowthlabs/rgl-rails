@@ -16,6 +16,15 @@ Rails 8 + Full Hotwire Stack skills plugin for Claude Code by [Ruby Growth Labs]
 | **hotwire-native** | Turbo iOS/Android, path configuration, Strada bridge components, native auth |
 | **frontend-craft** | CSS @layer, loading indicators, view transitions, optimistic morphing, frame spinners |
 
+## Two-Layer Knowledge Architecture
+
+Each skill contains two complementary knowledge layers:
+
+- **`references/`** — Synthesized, opinionated guidance: pattern cards, guardrails, DHH-style recommendations ("what to do and why")
+- **`handbook/`** — Official Turbo, Stimulus, and Hotwire Native documentation: precise API specs, attribute names, event names, action descriptors ("what exists and how it works")
+
+The `references/` layer tells you the right pattern. The `handbook/` layer gives you the exact API details to implement it correctly.
+
 ## Installation
 
 ```bash

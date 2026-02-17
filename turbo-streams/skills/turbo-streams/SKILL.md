@@ -48,6 +48,13 @@ Use `references/INDEX.md` for the full catalog with descriptions.
 
 For troubleshooting morph issues, see `examples/morphing-troubleshooting.md`.
 
+### Official Documentation
+
+When you need precise stream action names, element attributes, or API details, read from the `handbook/` directory. Use `handbook/INDEX.md` for the full catalog.
+
+- **Turbo Streams handbook: delivery, actions, targets** -- Read `handbook/turbo-streams.md`
+- **Streams API reference (all actions, attributes, events)** -- Read `handbook/turbo-streams-api.md`
+
 ## Escalate to Neighbor Skills
 
 - Client-side Stimulus orchestration alongside streams: use `stimulus-controllers`

@@ -124,6 +124,13 @@ Read the reference that matches the platform and pattern you are implementing. D
 - **Rails backend integration for native apps** -- Read `references/rails-native-backend.md`
 - **Complete bridge component implementations** -- Read `examples/bridge-component-cookbook.md`
 
+### Official Documentation
+
+When you need the official Hotwire Native overview or authentication patterns, read from the `handbook/` directory. Use `handbook/INDEX.md` for the full catalog.
+
+- **Hotwire Native overview (majestic monolith for native apps)** -- Read `handbook/turbo-native.md`
+- **Authentication with TurboFailureApp (proper 4xx responses for mobile)** -- Read `handbook/hotwire-native-turbo-failure-app.md`
+
 ## Escalate to Neighbor Skills
 
 - **turbo-navigation**: When the issue is about web view navigation within the native shell (Turbo Drive caching, Turbo Frames, page refresh). The web navigation patterns apply identically inside Hotwire Native web views.
